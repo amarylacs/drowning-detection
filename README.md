@@ -60,6 +60,8 @@ If it DOESN'T, maybe install Docker again!
 
 9. FORK this rep and fill in the API Keys and necessary models, workflows, etc.
 
-10. ```cd``` into your parent folder (example: ```cd Documents/GitHub/drowning-detection```
+10. ```$ cd``` into your parent folder (example: ```$ cd Documents/GitHub/drowning-detection```
 
-11. ```python3 <file_name>``` (example: ```python3 default-single-inference.py```
+11. ```$ python3 <file_name>``` (example: ```$ python3 default-single-inference.py```
+
+12. To deactivate the environment (to close it, not delete it), ```$ deactivate```
