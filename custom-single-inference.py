@@ -8,7 +8,7 @@ client = InferenceHTTPClient(
 
 
 result = client.infer(
-    inference_input="pictures/kiddrowning.jpg",
+    inference_input="assets/kiddrowning.jpg",
     model_id="small-dataset-ddepb/3"
 )
 
