@@ -8,8 +8,9 @@
 3. OPTIONAL: Fan + Heatsink to reduce heating
 
 **Software components**
-1. Load with Raspberry Pi OS (NOT UBUNTU!)
-2. Optional: Trained Roboflow model and/or Roboflow Workflow
+1. Install Docker: ```https://docs.docker.com/engine/install/debian/```
+2. Load with Raspberry Pi OS (NOT UBUNTU!)
+3. Optional: Trained Roboflow model and/or Roboflow Workflow
 
 ## Install Pyenv
 
@@ -52,8 +53,13 @@
 
 8. ```$ inference server start```
 
-This step takes a few minutes!
+This step takes a few minutes! It should say ```Starting inference server container...```
+If it DOESN'T, maybe install Docker again!
 
-9. ```$ export ROBOFLOW_API_KEY = "your_api_key"```
+## Run your code file
 
-10. 
+9. FORK this rep and fill in the API Keys and necessary models, workflows, etc.
+
+10. ```cd``` into your parent folder (example: ```cd Documents/GitHub/drowning-detection```
+
+11. ```python3 <file_name>``` (example: ```python3 default-single-inference.py```
