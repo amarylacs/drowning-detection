@@ -3,11 +3,12 @@
 ## Before Starting...
 
 **Hardware components:**
-1. Raspberry Pi 5 (8GB)
+1. Raspberry Pi 5 (8GB) + 64GB MicroSD card
 2. Raspberry Pi AI Camera
+3. OPTIONAL: Fan + Heatsink to reduce heating
 
 **Software components**
-1. Raspberry Pi OS (NOT UBUNTU!)
+1. Load with Raspberry Pi OS (NOT UBUNTU!)
 2. Optional: Trained Roboflow model and/or Roboflow Workflow
 
 ## Install Pyenv
@@ -51,3 +52,8 @@
 
 8. ```$ inference server start```
 
+This step takes a few minutes!
+
+9. ```$ export ROBOFLOW_API_KEY = "your_api_key"```
+
+10. 
