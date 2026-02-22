@@ -3,7 +3,7 @@ import json
 
 client = InferenceHTTPClient(
     api_url="http://localhost:9001", 
-    # api_key=
+    api_key="11vRFtlNLadjkcqsK6FG"
 )
 
 result = client.run_workflow(
