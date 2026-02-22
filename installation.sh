@@ -25,4 +25,4 @@ cd Documents/GitHub/drowning-detection
 
 python3 default-single-inference.py
 
-deactivate
+pyenv deactivate
