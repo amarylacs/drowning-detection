@@ -8,7 +8,7 @@
 3. OPTIONAL: Fan + Heatsink to reduce heating
 
 **Software components**
-1. Install Docker: ```https://docs.docker.com/engine/install/debian/```
+1. Install Docker by going through this link: ```https://docs.docker.com/engine/install/debian/```
 2. Load with Raspberry Pi OS (NOT UBUNTU!)
 3. Optional: Trained Roboflow model and/or Roboflow Workflow
 
