@@ -1,6 +1,5 @@
 # Installation Instructions
 
-## Before Starting...
 
 **Hardware components:**
 1. Raspberry Pi 5 (8GB) + 64GB MicroSD card
