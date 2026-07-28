@@ -264,6 +264,10 @@ python3 imx500_object_detection_demo.py --model ~/network.rpk --labels ~/labels.
 
 # Troubleshooting
 
+## Hardware Components
+1. [Raspberry Pi Getting Started](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
+2. [Raspberry Pi AI Camera Documentation](https://www.raspberrypi.com/documentation/accessories/ai-camera.html)
+
 ## IMX500 Quantization, Export, MCT, etc. etc. etc.
 1. [Ultralytics Documentation for Sony IMX500 on YOLO11 sample models](https://docs.ultralytics.com/integrations/sony-imx500#using-imx500-export-in-deployment)
 2. [Sony Model Compression Tookit Github](https://github.com/SonySemiconductorSolutions/mct-model-optimization)
