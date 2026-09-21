@@ -6,17 +6,17 @@ The project goal is to make a device that will recognize a variety of swimming a
 # Repository Layout
 ```
 .
+|-- README.md                               #Project introduction
 |-- CONTRIBUTING.md                         #Setup for local/real-time inference
 |-- LICENSE                                 #Project license
-|-- local_inference                         #Local inference setup and Python scripts
+|-- local_inference
 |   |-- assets                              #Sample images
 |   |-- custom-single-inference.py          #Inference of one photo on a custom model
 |   |-- custom-workflow.py                  #Workflow inference on a custom model
 |   |-- default-single-inference.py         #Inference of one photo on a default model
 |   |-- default-workflow.py                 #Workflow inference on a default model
 |   `-- installation.sh                     #Pyenv installation and setup
-|-- README.md                               #Project introduction
-`-- rpi_cam                                 #Real-Time inference on RPI AI Camera
+`-- rpi_cam
     |-- 09-20-26model_config.json           #Sample .json config file
     |-- 09-20-26network.rpk                 #Sample network.rpk file
     |-- 09-20-26packerOut.zip               #Sample packerOut.zip file
