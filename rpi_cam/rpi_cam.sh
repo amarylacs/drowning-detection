@@ -1,0 +1,2 @@
+cd ~/picamera2/examples/imx500
+python3 imx500_object_detection_demo.py --model /home/amarylacs/drowning-detection/rpi_cam/09-20-26network.rpk --labels /home/amarylacs/drowning-detection/rpi_cam/labels.txt --threshold 0.3 --bbox-normalization --bbox-order xy

@@ -1,0 +1,27 @@
+{
+    "imx500_object_detection":
+    {
+        "max_detections": 10,
+        "threshold": 0.3,
+        "bbox_normalization": true,
+        "bbox_order": "xy",
+        "network_file": "/home/amarylacs/09-20-26network.rpk",
+        "temporal_filter":
+        {
+            "tolerance": 0.1,
+            "factor": 0.2,
+            "visible_frames": 4,
+            "hidden_frames": 2
+        },
+        "classes":
+        [
+            "drowning",
+            "normal"
+        ]
+    },
+    "object_detect_draw_cv":
+    {
+        "line_thickness": 2,
+        "font_scale": 0.6
+    }
+}
